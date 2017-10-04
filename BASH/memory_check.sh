@@ -12,7 +12,7 @@ user_instruction_func()
     exit 4
 }
 
-# Checks and installs pre-requisite package(s) before running script
+# Checks and installs pre-requisite package(s) so the script runs properly
 install_packages_func()
 {
     # Loop through all needed packages
